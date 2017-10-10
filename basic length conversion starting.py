@@ -1,0 +1,8 @@
+INCHES_TO_CENTIMETERS = .0254
+METERS_TO_KILOMETERS = 1000
+METERS_TO_CENTIMETERS = .01
+METERS_TO_MILIMETERS = .001
+INCHES_TO_FEET = 12
+INCHES_TO_YARDS = 36
+
+ converting_from = input('Enter the unit you wish to convert from: ')
