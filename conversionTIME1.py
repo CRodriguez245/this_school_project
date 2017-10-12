@@ -26,22 +26,22 @@ elif operation1 == 'min' and operation2 == 'wk':
     print(str((((number_1) / 60) / 24) / 7) + ' wk')
 
 elif operation1 == 'hr' and operation2 == 's':
-    print(str(number_1 * 60 * 60) + 's')
+    print(str(number_1 * 60 * 60) + ' s')
 
 elif operation1 == 'hr' and operation2 == 'min':
-    print(str(number_1 * 60) + 'min')
+    print(str(number_1 * 60) + ' min')
 
 elif operation1 == 'hr' and operation2 == 'wk':
-    print(str((number_1 / 24) / 7) + 'wk')
+    print(str((number_1 / 24) / 7) + ' wk')
 
 elif operation1 == 'wk' and operation2 == 's':
-    print(str(number_1 * 7 * 24 * 60 * 60) + 's')
+    print(str(number_1 * 7 * 24 * 60 * 60) + ' s')
 
 elif operation1 == 'wk' and operation2 == 'min':
-    print(str(number_1 * 7 * 24 * 60) + 'min')
+    print(str(number_1 * 7 * 24 * 60) + ' min')
 
 elif operation1 == 'wk' and operation2 == 'hr':
-    print(str(number_1 * 7 * 24) + 'hr')
+    print(str(number_1 * 7 * 24) + ' hr')
 
 else:
     print('Error.')
