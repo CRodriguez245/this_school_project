@@ -1,0 +1,22 @@
+number_1 = int(input('Enter number of seconds to convert: '))
+
+operation = str(input('Enter desired unit conversion - s, min, hr, day, week: '))
+
+if operation == 's':
+    print(str(number_1) + ' sec')
+
+elif operation == 'min':
+    print(str((number_1) / 60) + ' min')
+
+elif operation == 'hr':
+    print(str(((number_1) / 60) / 60) + ' hr')
+
+elif operation == 'day':
+    print(str((((number_1) / 60) / 60) / 24) + ' day')
+
+elif operation == 'week':
+    print(str(((((number_1) / 60) / 60) / 24) / 7) + ' week')
+
+else:
+    print('Invalid.')
+
